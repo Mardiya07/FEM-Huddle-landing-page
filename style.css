@@ -15,6 +15,7 @@ footer, header,nav, section{
   padding: 0;
   border: 0;
   outline: 0;
+  list-style-type: none;
 }
 *{
     box-sizing: border-box;
@@ -105,11 +106,155 @@ max-width: 100%;
     outline: 1px solid red;
     padding: 6rem 2rem;
 }
-.contentCard{
-    border: 1px solid ;
+.roundedBorders{
     border-radius:1rem;
-    margin: 1.5rem 0;
 }
+.contentCard{
+    border: 1px solid grey;
+    margin: 1.5rem 0;
+}r
 .cardImg{
     padding: 4rem;
+}
+.cardText{
+    padding: 1rem;
+    text-align: center;
+}
+.cardText h2{
+    font-size: 2rem;
+    padding: 1rem 
+}
+.cardText p{
+    font-size: 1.3rem;
+    padding: 1rem 
+}
+
+.footerCta{
+    padding: 1.5rem 0;
+    margin: 0 2rem;
+    outline: 1px solid;
+}
+.footerCta h2{
+    font-size: 1.6rem;
+    padding: 1rem 0;
+
+}
+.footer{
+    background-color: var(--Very-Dark-Cyan);
+    color: var(--Very-Pale-Cyan);
+}
+.mainfooterContentWrap{
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+
+}
+ .footerLogo{
+ }   
+    
+ .footerSectioner{
+     padding: 1rem 2rem;
+ }  
+ .footerSectioner li{
+     padding: .5rem 0;
+     font-size: 1.5rem;
+     
+ }
+.contactWrapper{
+    display: flex;
+    align-items: flex-start;
+    
+}    
+.contactWrapper p{
+    font-size: 1.5rem;
+    padding: 1rem;
+}
+.footerIcon{
+    margin: 1rem;
+    width: 1.5rem;
+    height: auto;
+    
+
+}
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    ;
 }
