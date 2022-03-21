@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+:root{
+--Pink:hsl(322, 100%, 66%);
+--Very-Pale-Cyan:hsl(193, 100%, 96%);
+--Very-Dark-Cyan:hsl(192, 100%, 9%);
+--Grayish-Blue:hsl(208, 11%, 55%);
+
+}
+
+/* CSS reset */
+html, body, div, span,button,h1, h2, p,img, ul, li,figcaption, figure,
+footer, header,nav, section{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+}
+*{
+    box-sizing: border-box;
+    font-size: 10px;
+    font-family: Open Sans, sans-serif;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+header,.hero, .mainContent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main{
+    margin:0 auto;
+    width: 100%;
+    max-width:52rem;
+    text-align: center;
+}
+header{
+    background-color:var(--Very-Pale-Cyan);
+    background-image: url('./images/bg-hero-mobile.svg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+nav{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background: transparent;
+    border: 1px solid red;
+    padding: 2rem;
+    
+}
+.logo{
+    /* transform: scale(.5); */
+    width: 10rem;
+    height: auto;
+}
+.ctaBtn{
+    border-radius: 2rem;
+    padding: .5rem 2rem;
+    font-family:'Open Sans';
+    font-weight: 700;
+    /* filter: drop-shadow(0 .4rem 0.25rem grey); */
+}
+.hero{
+    width: 100%;
+    padding: 2rem 4rem 4rem 4rem;
+    outline: 1px solid green;
+    
+    
+}
+.heroText{
+    width: 100%;
+    padding: 2rem 0;
+    /* outline: 1px solid purple; */
+}
+.heroText h1{
+    font-size: 2rem;
+    font-family:'Poppins';
+    font-weight: 600;
+    padding: 2rem 0 1rem 0;
+}
+.heroText p{
+    font-size: 1.25rem;
+    padding: 1rem 0;
+}
+.heroImg{
+height:auto;
+width: 100vw;
+max-width: 100%;
+/* outline: 1px solid red; */
+}
+.getStartedBtn{
+    background-color: var(--Pink);
+    color:white;
+    padding: 1rem 5rem;
+    margin: 2rem 0;
+}
+.mainContent{
+    outline: 1px solid red;
+    padding: 6rem 2rem;
+}
+.contentCard{
+    border: 1px solid ;
+    border-radius:1rem;
+    margin: 1.5rem 0;
+}
+.cardImg{
+    padding: 4rem;
+}
